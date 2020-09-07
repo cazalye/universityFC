@@ -1,0 +1,154 @@
+@import "../styles/colors";
+
+body{
+
+    .mdl-layout .mdl-layout__inner-container{
+        .mdl-layout__header{
+            z-index: 10;
+            background-color: $uniBlack;
+            background-color: white;
+            border-bottom: 1px solid black;
+            position: fixed;
+        }
+        .mdl-layout__header--transparent.is-casting-shadow{
+            position:fixed;
+            top: 35px;
+            // height: 45px;
+            height: auto;
+            min-height: 40px;
+        }
+        .logo-nav{
+            position: fixed;
+            top: 0;
+            z-index: 100;
+            left: 50%;
+            transform: translate(-50%);
+            background-color: white;
+            height: auto;
+            width: 100%;
+            padding: 5px;
+        }
+        .header-title{
+            .logo{
+                border-radius: 2px 
+            }
+            display: none;
+        }
+        .mdl-layout__header-row{
+            padding-left: 10px;
+            height: 45px;
+            .mdl-navigation{
+                width: 100%;
+                justify-content: center;
+                .mdl-navigation__link{
+                    color: white;
+                    color: black;
+                    font-size: 18px;
+                    line-height: 20px;
+                    font-family: 'Open Sans', sans-serif;
+                }
+            }
+        } 
+        .mdl-layout__drawer{
+            height: 100vh;
+            background-color: white; 
+            background-color: black; 
+            .mdl-layout-title{
+                .header-title{
+                    color: $uniBlack;
+                    color: white;
+                    // color: red;
+                    text-align: left;
+                    font-family: 'Open Sans', sans-serif;
+                    font-weight: 100;
+                    display: none;
+                }
+            }
+        }
+        .drawer-nav{
+            padding-top: 80px;
+            .mdl-navigation__link{
+                position: relative;
+                color: black;
+                color: white;
+                font-size: 18px;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 100;
+            }
+        }
+        .mdl-layout__drawer .mdl-navigation{
+            position: relative;
+            padding-top:70px;
+            // height: 300vh;
+        }
+        .mdl-layout__drawer-button{
+            z-index: 10;
+            left: auto;
+            right:30px;
+            top:15px;
+            display: none;
+            position: absolute;
+            margin: 8px 12px;
+            cursor: pointer;
+            width: 48px;
+            border:none;
+                i{
+                z-index: 10;
+                color: $uniRed;
+                font-size: 40px;   
+                }
+        }
+    }
+}
+
+
+
+// Responsive Design
+// PHONE/TABLET: 0-450
+@media (max-width: 1024px) {
+    body .mdl-layout .mdl-layout__inner-container {
+        z-index: 10;
+        height: auto;
+        position: fixed;
+        .mdl-layout__obfuscator{
+            height: 56px;
+            position: relative;
+            top: 0px;
+            left: 0px;
+        }
+        .mdl-layout__obfuscator.is-visible{
+            height: 100vh;
+        }
+        .logo-nav{
+            height: 56px;
+            padding: 12px;
+            border-bottom: 2px solid rgba(0,0,0,0.9);
+            .logo{
+                position: absolute;
+                left: 10px;
+            }
+        }
+        .mdl-layout__drawer{
+            position: fixed;
+            z-index: 6;
+            .mdl-navigation__link{
+                text-align: left;
+                left: 5%;
+            }
+        }
+        .mdl-layout__drawer.is-visible{
+            position: fixed;
+        }
+        .mdl-layout__drawer-button{
+            z-index: 100;
+            display: block;
+            position: fixed;
+            top: 0;
+            right: 0px;
+            i{
+            color: black;
+            }
+        }
+        
+    }
+}

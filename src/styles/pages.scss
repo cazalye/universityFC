@@ -1,0 +1,388 @@
+@import "./colors";
+
+.page-container{
+    position: relative;
+    width: 100%;
+    // padding-top: 64px;
+    background-color: black;
+    // background-color: white;
+    opacity: .9;
+    overflow-y: hidden;
+    padding-bottom: 11%;
+    #fixtures, #teams, #grounds, #training, #culture,#contact{
+        padding-top: 5%;
+    }
+    .page-header{
+        padding-top: 110px;
+        .utas-logo{
+            width: 150px;
+        }
+        .page-title{
+            font-family: 'Playfair Display', serif;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 40px;
+            margin-top: 0px;
+            padding-top: 0;
+            color: $uniWhiteLight;
+            // color: black;
+            font-size: 48px;
+        }
+    }
+    .page-banner{
+        .banner-image{
+            width: 75%;
+        }
+        .solstice-credit{
+            position: relative;
+            padding-top: 5px;
+            // margin-top: -30px;
+            // font-family: 'Open Sans', sans-serif;
+            p{
+                color:white;
+                // color: black;
+            }
+            a{
+                color: white;
+                // color: black;
+            }
+        }
+    }
+    .team-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 100%;
+        .page-content-teams{
+            width: 50%;
+            .team-name{
+                color: red;
+                font-family: 'Open Sans', sans-serif;
+                text-align: center;
+                margin-top: 15%;
+                margin-bottom: 0;
+                font-size: 28px;
+                margin-left: 0;
+                margin-right: 0;
+            }
+            p{
+                color: white;
+                // color: black;
+                font-family: 'Open Sans', sans-serif;
+                font-size: 16px;
+                line-height: 26px;
+                padding-top: 5px;
+            }
+        }
+    }
+    .page-content{
+        .left-col, .right-col{
+            margin-top: 3%;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+        img{
+            width: 60%;
+            margin-top: 2%;
+        }
+
+        .captain-img-caption{
+            font-size: 16px;
+            line-height: 20px;
+            font-family: 'Open Sans', sans-serif;
+            position: relative;
+            // bottom: 55px;   
+            background-color: $uniBlack;
+            // background-color: white;
+            width: 60%;
+            padding: 10px;
+            height: auto;
+            // min-height: 1000px;
+            left: 20%;
+            margin: 0;
+        }
+        h2{
+            color: red;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 38px;
+            margin-bottom: 3%;
+            margin-top: 5%;
+            width: 100%;
+            // padding-left: 20%;
+        }
+        .page-subtitle{
+            margin-bottom: 0;
+        }
+        .fixtures-subtitle{
+            margin-bottom: 0;
+            text-align: left;
+            padding-left: 25%;
+        }
+        h3{
+            color: red;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 38px;
+            margin-bottom: 0px;
+            margin-top: 5%;
+        }
+        h4{
+            color: red;
+            // color: black;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 22px;
+            margin-bottom: 0px;
+            margin-top: 4%;
+            text-align: left;
+        }
+        .team-name{
+            text-align: center;
+            margin-top: 5%;
+            font-size: 28px;
+        }
+        .team-title{
+            padding-left: 25%;
+            padding-top: 2%;
+            padding-bottom: 1%;
+        }
+        .fft-links{
+            text-align: left;
+            padding-left: 25%;
+        }
+        p{
+            color: white;
+            // color: black;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            line-height: 26px;
+            // width: 50%;
+            text-align: center;
+            // padding-left: 25%;
+            padding-top: 10px;
+        }
+        .page-description{
+            // font-size: 18px;
+            padding: 0;
+            margin: 0;
+            text-align: left;
+            width: 80%;
+            padding-left: 20%;
+        } 
+        ul{
+            margin-top: 30px;
+            width: 90%;
+            padding: 0;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        li{
+            color: white;
+            // color: black;
+            margin-top: 10px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            text-align: left;
+            width: 70%;
+        }
+        .social-title{
+            margin-bottom: .5%;
+            
+        }
+        .social-subtitle{
+            margin-top: .5% ;
+            margin-bottom: 3%;
+            font-size: 24px;
+            text-align: center;
+            align-content: center;
+            width: 100%;
+        }
+        a{
+            color: white;
+            // color: black;
+            font-family: 'Open Sans', sans-serif;
+            text-decoration: none;
+            font-size: 16px;
+            line-height: 26px;
+            justify-content: center;
+            padding-right: 20px;
+            padding-top: 10px;
+            padding-left: 0;
+        }
+        hr{
+            border: none;
+            margin-top: 10px;
+            // margin-bottom: 40px; 
+        }
+        .training-hr{
+            border-bottom: 1px solid red;
+            width: 30%;
+            margin-left: 25%;
+            justify-content: center;
+            margin-bottom: 0;
+            margin-top: 20px;
+            display: none;
+        }
+        .team-image{
+            padding: 0;
+            margin: 0;
+            margin-bottom: 5%;
+            border: 5px solid $uniWhiteLightest;
+        } 
+        .training-time{
+            // background-color:rgba(0,0,0, 0.8);
+            width: 60%;
+            margin-left: 20%;
+            margin-bottom: 0;
+            margin-top: 20px;
+            padding: 10px;
+            // border-top: 1px solid rgba(255,255,255, 0.2);
+        } 
+        .right-img, .left-img{
+            margin-top: 0;
+        } 
+        .contact-name{
+            width: 70%;
+            padding-left: 30%;
+        }
+        a{
+            color: white;
+            // color: black;
+            font-family: 'Open Sans', sans-serif;
+            padding-left: 10px;
+            font-size: 18px;
+        }
+    }
+}
+
+
+// Responsive Design
+// PHONE/TABLET: 0-1024
+@media (max-width: 1024px) {
+    .page-container{
+        .page-header{
+            padding-top: 110px;
+            .utas-logo{
+                width: 120px;
+            }
+            .page-title{
+                font-size: 34px;
+                // margin-bottom: 5%;
+            }
+        }
+        .page-banner{
+            .banner-image{
+                width: 90%;
+            }
+            .solstice-credit{
+                // margin-top: 5px;
+                width: 90%;
+                padding-left: 5%;
+                p{
+                    font-size: 8px;
+                    line-height: 12px;
+                }
+            }
+        } 
+        .page-content{
+            padding-bottom: 10%;
+            h2{
+                font-size: 30px;
+                text-align: left;
+                width: 95%;
+                padding-left: 5%;
+                padding-top: 2%;
+                padding-bottom: 2%;
+            }
+            .social-title{
+                text-align: center;
+            }
+            .page-subtitle{
+                text-align: center;
+                font-size: 38px;
+            }
+            .social-subtitle{
+                font-size: 14px;
+                color: white;
+                // color: black;
+                padding-bottom: 40px;
+            }
+            ul{
+            width: 90%;
+            padding-left: 10%;
+                li{
+                    width: 100%;
+                }
+            }
+            h4{
+                text-transform: uppercase;
+                padding-top: 80px;
+            }
+            .contact-name{
+                padding-left: 5%;
+                width: 100%;
+                padding-top: 10%;
+                font-size: 18px;
+                a{
+                    padding-left: 0;
+                    text-transform: lowercase;
+                }
+            }
+            .training-time{
+                width: 100%;
+                margin: 0;
+                margin-top: 7%;
+            }
+            .captain-img-caption{
+                width: 100%;
+                left: 0;
+            }
+            .left-img, .right-img{
+                width: 100%;
+            }
+            .page-description{
+                width: 95%;
+                margin-right: 0;
+                padding: 0;
+                padding-left: 5%;
+            }
+            
+            .fixtures-subtitle{
+                // width: 100%;
+                padding: 5px;
+                // text-decoration: underline;
+                font-size: 32px;
+                text-transform: uppercase;
+                padding-top: 20px;
+                padding-bottom: 0px;
+            }
+            .team-title{
+                // width: 100%;
+                padding: 5px;
+                font-size: 18px;
+
+            }
+            .fft-links{
+                padding: 0;
+                a{
+                    padding: 5px;
+                    padding-right: 10px;
+                    font-size: 14px;
+                    // font-weight: bold;
+                    // text-transform: uppercases;
+                }
+            }
+        } 
+        .team-container{
+            .page-content-teams{
+                width: 95%;
+                .team-name{
+                    font-size: 18px;
+                }
+                p{
+                    font-size: 12px;
+                    line-height: 18px;
+                }
+            }
+        }
+        
+    }
+}
