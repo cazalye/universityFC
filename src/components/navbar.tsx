@@ -12,12 +12,11 @@ class Navbar extends Component <any, any> {
         }
     }
     render() {
-        // const title = <Link to="/#landing" className="header-title"><img className="logo" alt="Uni soccer club logo" src="./img/uni_soccer_logo.png"/> </Link> as any;
         return (
             <Layout>
                 <div className="logo-nav">
                     <Link to="/#landing">
-                        <img className="logo" alt="Uni soccer club logo" src="./img/uni_soccer_logo.png" width="170px"/> 
+                        <img className="logo" alt="Uni soccer club logo" src="./uni_soccer_logo.png" width="170px"/> 
                     </Link>
                 </div>
                 <Header transparent title="">
