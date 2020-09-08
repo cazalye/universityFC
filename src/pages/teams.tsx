@@ -5,6 +5,7 @@ import '../styles/pages.scss';
 import SolsticeCredit from '../components/solsticeCredit';
 import Layout from '../components/layout';
 import {Grid, Cell} from 'react-mdl';
+import Head from "../components/head";
 
 export const query = graphql`
     query {
@@ -45,6 +46,7 @@ const Teams = (props) => {
 
         return (
             <Layout>
+                <Head title = "Teams"/>
             <div className="page-container">
                 <a id="teams"/>
                 <div className="page-header">

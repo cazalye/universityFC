@@ -85,6 +85,51 @@
             border: 2px solid $uniWhiteLightest;
         } 
     }
+    .training-subtitle{
+        text-align: center;
+        margin: 4%;
+        h3{
+            color: red;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 100;
+            font-size: 36px;
+        }
+        p{
+            color: white;
+            font-size: 22px;
+            margin-bottom: 10%;
+        }
+    }
+    .training-content{
+        .left-col, .right-col{
+            margin:0;
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+        img{
+            width: 100%;
+        }
+        h4{
+            color:red;
+            text-align: center;
+            // width: 50%;
+            font-size: 28px;
+            margin-bottom: 3%;
+        }
+        h6{
+            font-size: 16px;
+            line-height: 20px;
+            font-family: 'Open Sans', sans-serif;
+            background-color: hsla(0,0%,100%,.05);
+            color:white;
+            // width: 50%;
+            padding: 10px;
+            height: auto;
+            margin: 0;
+            text-align: center;
+        }
+    }
+        
     .page-content{
         .contact-content{
             h2{
@@ -106,22 +151,6 @@
         img{
             width: 60%;
             margin-top: 2%;
-        }
-
-        .captain-img-caption{
-            font-size: 16px;
-            line-height: 20px;
-            font-family: 'Open Sans', sans-serif;
-            position: relative;
-            // bottom: 55px;   
-            background-color: $uniBlack;
-            // background-color: white;
-            width: 60%;
-            padding: 10px;
-            height: auto;
-            // min-height: 1000px;
-            left: 20%;
-            margin: 0;
         }
         h2{
             color: red;
@@ -221,27 +250,7 @@
             margin-top: 10px;
             // margin-bottom: 40px; 
         }
-        .training-hr{
-            border-bottom: 1px solid red;
-            width: 30%;
-            margin-left: 25%;
-            justify-content: center;
-            margin-bottom: 0;
-            margin-top: 20px;
-            display: none;
-        }
-        .training-time{
-            // background-color:rgba(0,0,0, 0.8);
-            width: 60%;
-            margin-left: 20%;
-            margin-bottom: 0;
-            margin-top: 20px;
-            padding: 10px;
-            // border-top: 1px solid rgba(255,255,255, 0.2);
-        } 
-        .right-img, .left-img{
-            margin-top: 0;
-        }
+
     }
 }
 
