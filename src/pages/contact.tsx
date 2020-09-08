@@ -55,7 +55,6 @@ const Contact = (props) => {
                 <div className="page-content">
                     <h2>Contact Us</h2>
                     <div className="contact-content">{documentToReactComponents(props.data.contentfulContact.content.json)}</div>
-                    
                 </div>
             </div>
         </Layout>

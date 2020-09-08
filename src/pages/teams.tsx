@@ -1,75 +1,70 @@
 import React, { Component } from 'react';
-import Team from '../components/team';
+import { graphql } from 'gatsby'
+import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 import '../styles/pages.scss';
 import SolsticeCredit from '../components/solsticeCredit';
 import Layout from '../components/layout';
+import {Grid, Cell} from 'react-mdl';
 
-export default class Teams extends Component {
-    render() {
+export const query = graphql`
+    query {
+        contentfulTeams  {
+            title
+            logo{
+                title
+                file{
+                  url
+                }
+              }
+            featureImage{
+                file{
+                  url
+                }
+                title
+              }
+            content{
+            json
+            }
+            contentMen{
+            json
+            }
+        }
+    }
+`
+
+const Teams = (props) => {
+    const options = {
+        renderNode: {
+            "embedded-asset-block": (node) => {
+                const alt = node.data.target.fields.title['en-US']
+                const url = node.data.target.fields.file['en-US'].url
+                return <img alt={alt} src={url}  className="team-image" width="80%"/>
+            }
+        }
+    }
+
         return (
             <Layout>
             <div className="page-container">
                 <a id="teams"/>
                 <div className="page-header">
-                    <img src="./img/uni_logo_crop.png" alt="University of Tasmania logo with lion" className="utas-logo" width="180px"/>
-                    <h1 className="page-title">Teams</h1>
+                    <img src={props.data.contentfulTeams.logo.file.url} alt={props.data.contentfulTeams.logo.title} className="utas-logo" width="180px"/>
+                    <h1 className="page-title">{props.data.contentfulTeams.title}</h1>
                 </div>
                 <div className="page-banner">
-                    <img className="banner-image" src="./img/teams.jpg" alt="Our women's team celebrating their 2019 victory"/>
+                    <img className="banner-image" src={props.data.contentfulTeams.featureImage.file.url} alt={props.data.contentfulTeams.featureImage.title} />
                     <SolsticeCredit/>
-                </div>
-                <div className="team-container">
-                    <Team
-                    image="./img/wsl.jpg"
-                    alt="Women's Super League"
-                    teamName="Women's Super League"
-                    description="Senior women's team"
-                    />
-                    <Team
-                    image="./img/ressies.jpg"
-                    alt="Women's Championship team"
-                    teamName="Women's Championship"
-                    description="Senior women's reserve team"
-                    />
-                    <Team
-                    image="./img/soccerball.png"
-                    alt=""
-                    teamName="Women's Championship 2"
-                    description="Social women's team"
-                    />
-                    <Team
-                    image="./img/soccerball.png"
-                    alt=""
-                    teamName="Mens Championship"
-                    description="Senior men's team"
-                    />
-                    <Team
-                    image="./img/soccerball.png"
-                    alt=""
-                    teamName="Mens Championship 1"
-                    description="Senior men's reserve team"
-                    />
-                    <Team
-                    image="./img/soccerball.png"
-                    alt=""
-                    teamName="Social: University Dynamo"
-                    description="One of our three men's social teams, competing in Championship 3"
-                    />
-                    <Team
-                    image="./img/soccerball.png"
-                    alt=""
-                    teamName="Social: University Bees"
-                    description="One of our three men's social teams, competing in Championship 4"
-                    />
-                    <Team
-                    image="./img/soccerball.png"
-                    alt=""
-                    teamName="Social: University Wanderers"
-                    description="One of our three men's social teams, competing in Championship 5"
-                    />
-                </div>
+                </div> 
+                <Grid className="team-content">
+                    <Cell col={6} className="left-col">
+                        {documentToReactComponents(props.data.contentfulTeams.content.json, options)}
+                    </Cell>
+                    <Cell col={6} className="right-col">
+                       {documentToReactComponents(props.data.contentfulTeams.contentMen.json, options)}
+                    </Cell>
+                </Grid>
             </div>
-        </Layout>
+            </Layout>
         )
     }
-}
+ export default Teams
