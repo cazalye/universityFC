@@ -13,16 +13,17 @@
     padding-bottom: 1%;
     p{
         color: white;
-        color: black;
+        // color: black;
         font-family: 'Open Sans', sans-serif;
         bottom: 0;
         font-size: 12px;
         line-height: 16px;
+        text-align: center;
     }
     a{
         font-family: "Quentin";
         color: white;
-        color: black;
+        // color: black;
         font-size: 17px;
         padding-left: 2px;
     }
@@ -34,7 +35,7 @@
     padding: 0;
     position: relative;
     background-color: $uniBlackDark;
-    background-color: white;
+    // background-color: white;
     padding-bottom: .5%;
     .drop-down-container{
         width: 90%;
@@ -67,12 +68,12 @@
                 line-height: 28px;
                 display: block;
                 color: white;
-                color: black;
+                // color: black;
                 font-family: 'Open Sans', sans-serif;
                 font-weight: 100;
                 a:hover{
                     color: grey;
-                    color: darkgrey;
+                    // color: darkgrey;
                 }
             }
         }
@@ -88,7 +89,6 @@
             padding-right: 20px;
             padding-left: 20px;
             i{
-                // color: white;
                 color: red;
             }
         }
