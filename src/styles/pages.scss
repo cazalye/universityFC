@@ -129,6 +129,25 @@
             text-align: center;
         }
     }
+    .grounds-content{
+        h3{
+            color: red;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 38px;
+            margin-bottom: 2.5%;
+            margin-top: 5%;
+            text-align: center;
+        }
+        p{
+            padding: 0;
+            margin: 0;
+            text-align: left;
+            width: 80%;
+            padding-left: 20%;
+            color: white;
+            font-size: 16px;
+        } 
+    }
         
     .page-content{
         .contact-content{
@@ -174,7 +193,7 @@
             color: red;
             font-family: 'Open Sans', sans-serif;
             font-size: 38px;
-            margin-bottom: 0px;
+            margin-bottom: 20px;
             margin-top: 5%;
         }
         h4{
@@ -197,15 +216,7 @@
             // text-align: center;
             padding-top: 10px;
         }
-        .page-description{
-            // font-size: 18px;
-            padding: 0;
-            margin: 0;
-            text-align: left;
-            width: 80%;
-            padding-left: 20%;
-        } 
-        ul{
+l{
             margin-top: 30px;
             width: 90%;
             padding: 0;
