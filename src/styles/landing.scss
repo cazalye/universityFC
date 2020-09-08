@@ -83,11 +83,7 @@
 // Responsive Design
 // PHONE: 0-450
 // @media (max-width: 450px) {
-@media (max-width: 1024px) {
-    #landing{
-        // padding-top: 56px;
-        // padding-top: 50%;
-    } 
+@media (max-width: 1024px) { 
     .solstice-credit-landing{
         display: block;
         color: white;
@@ -113,10 +109,6 @@
         #sponsors{
             padding-top: 0;
             top: 0;
-        }
-        .utas-logo-sponsor{
-            // display: none;
-            // width: 50%;
         }
         h1{
             font-size: 44px;
