@@ -14,6 +14,7 @@
     }
     .page-header{
         padding-top: 110px;
+        text-align: center;
         .utas-logo{
             width: 150px;
         }
@@ -25,11 +26,11 @@
             margin-top: 0px;
             padding-top: 0;
             color: $uniWhiteLight;
-            // color: black;
             font-size: 48px;
         }
     }
     .page-banner{
+        text-align: center;
         .banner-image{
             width: 75%;
         }
@@ -75,7 +76,15 @@
             }
         }
     }
+
     .page-content{
+        .contact-content{
+            width: 70%;
+            padding-left: 30%;
+            h4{
+                margin-bottom: 5%;
+            }
+        }
         .left-col, .right-col{
             margin-top: 3%;
             padding-left: 5%;
@@ -109,6 +118,7 @@
             margin-top: 5%;
             width: 100%;
             // padding-left: 20%;
+            text-align: center;
         }
         .page-subtitle{
             margin-bottom: 0;
@@ -127,7 +137,6 @@
         }
         h4{
             color: red;
-            // color: black;
             font-family: 'Open Sans', sans-serif;
             font-size: 22px;
             margin-bottom: 0px;
