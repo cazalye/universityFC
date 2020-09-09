@@ -13,6 +13,16 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-plugin-anchor-links',
     'gatsby-plugin-smoothscroll',
+    'gatsby-plugin-sharp',
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        custom: {
+          families: ["Quentin"],
+          urls: ["/fonts/fonts.scss"],
+        },
+      },
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -20,7 +30,7 @@ module.exports = {
           path: `${__dirname}/src/`
       }
     },
-    'gatsby-plugin-sharp',
+    
     {
       resolve: 'gatsby-transformer-remark',
       options: {
