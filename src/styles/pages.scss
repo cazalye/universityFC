@@ -3,9 +3,7 @@
 .page-container{
     position: relative;
     width: 100%;
-    // padding-top: 64px;
     background-color: black;
-    // background-color: white;
     opacity: .9;
     overflow-y: hidden;
     padding-bottom: 11%;
@@ -37,15 +35,11 @@
         .solstice-credit{
             position: relative;
             padding-top: 5px;
-            // margin-top: -30px;
-            // font-family: 'Open Sans', sans-serif;
             p{
                 color:white;
-                // color: black;
             }
             a{
                 color: white;
-                // color: black;
             }
         }
     }
@@ -55,6 +49,7 @@
         h3{
             color: red;
             font-family: 'Open Sans', sans-serif;
+            font-weight: 100;
             font-size: 38px;
             margin-bottom: 0px;
             margin-top: 5%;
@@ -62,6 +57,7 @@
         h4{
             color: red;
             font-family: 'Open Sans', sans-serif;
+            font-weight: 100;
             text-align: left;
             margin-top: 5%;
             margin-bottom: 0;
@@ -88,16 +84,19 @@
     .training-subtitle{
         text-align: center;
         margin: 4%;
+      
         h3{
             color: red;
+            font-size: 34px;
             font-family: 'Open Sans', sans-serif;
             font-weight: 100;
-            font-size: 36px;
         }
-        p{
+        p{  
             color: white;
-            font-size: 22px;
+            font-size: 1.25rem;
             margin-bottom: 10%;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 100;
         }
     }
     .training-content{
@@ -110,48 +109,57 @@
             width: 100%;
         }
         h4{
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 100;
             color:red;
             text-align: center;
-            // width: 50%;
-            font-size: 28px;
-            margin-bottom: 3%;
+            font-size: 38px;
+            margin-bottom: 10%;
         }
         h6{
             font-size: 16px;
-            line-height: 20px;
+            line-height: 26px;
             font-family: 'Open Sans', sans-serif;
+            font-weight: 100;
             background-color: hsla(0,0%,100%,.05);
             color:white;
-            // width: 50%;
             padding: 10px;
             height: auto;
             margin: 0;
             text-align: center;
+            padding: 5%;
+            padding-left: 10%;
+            padding-right: 10%;
         }
     }
     .grounds-content{
         h3{
             color: red;
             font-family: 'Open Sans', sans-serif;
+            font-weight: 100;
             font-size: 38px;
             margin-bottom: 2.5%;
             margin-top: 5%;
             text-align: center;
         }
         p{
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 100;
             padding: 0;
             margin: 0;
             text-align: left;
             width: 80%;
             padding-left: 20%;
             color: white;
-            font-size: 16px;
+            font-size: 18px;
+            line-height: 28px;
         } 
     }
     .culture-content{
         h3{
             color: red;
             font-family: 'Open Sans', sans-serif;
+            font-weight: 100;
             font-size: 38px;
             margin-top: 5%;
             text-align: center;
@@ -161,6 +169,8 @@
             text-align: center;
             margin-top: 0;
             margin-bottom: 5%;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 100;
         }
         p{
             text-align: left;
@@ -168,10 +178,14 @@
             margin-left: 20%;
             margin-right: 20%;
             color: white;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 100;
         }
         ul{
             margin-top: 2%;
             margin-left: 20%;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 100;
             li{
                 color: #fff;
                 margin-top: 10px;
@@ -210,6 +224,7 @@
         h2{
             color: red;
             font-family: 'Open Sans', sans-serif;
+            font-weight: 100;
             font-size: 38px;
             margin-bottom: 3%;
             margin-top: 5%;
@@ -228,6 +243,7 @@
         h3{
             color: red;
             font-family: 'Open Sans', sans-serif;
+            font-weight: 100;
             font-size: 38px;
             margin-bottom: 20px;
             margin-top: 5%;
@@ -235,6 +251,7 @@
         h4{
             color: red;
             font-family: 'Open Sans', sans-serif;
+            font-weight: 100;
             font-size: 22px;
             margin-bottom: 0px;
             margin-top: 4%;
@@ -247,17 +264,20 @@
         p{
             color: white;
             font-family: 'Open Sans', sans-serif;
+            font-weight: 100;
             font-size: 16px;
             line-height: 26px;
             // text-align: center;
             padding-top: 10px;
         }
-l{
+        ul{
             margin-top: 30px;
             width: 90%;
             padding: 0;
             margin-left: 5%;
             margin-right: 5%;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 100;
         }
         li{
             color: white;
@@ -271,6 +291,7 @@ l{
         a{
             color: white;
             font-family: 'Open Sans', sans-serif;
+            font-weight: 100;
             text-decoration: none;
             font-size: 16px;
             line-height: 26px;
