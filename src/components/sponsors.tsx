@@ -7,12 +7,12 @@ class Sponsors extends Component {
         return (
             <div className="sponsor-section">
                 <a id="sponsors"/>
-                <img src="./uni_logo_crop.png" alt="University of Tasmania logo with lion" className="utas-logo-sponsor" width="180px"/>
-                
-                <h1>UNIVERSITY FOOTBALL CLUB</h1>
-                <h3>Home of the Uni Bees</h3>
-                <h2>BEE IMAGE</h2>
-                
+                <div className="uni-title">
+                    <img src="./uni_logo_crop.png" alt="University of Tasmania logo with lion" className="utas-logo-sponsor" width="180px"/>
+                    <h1>UNIVERSITY FOOTBALL CLUB</h1>
+                </div>
+                <h4>Home of the Uni Bees</h4>
+                <img src="./bee.png" alt="bee" width="20%"/>
                 <div className="sponsors">
                 <a href="https://goodsports.com.au/" className="good-sports" rel="noopener noreferrer" target="_blank">
                     <img src="./good-sports.png" width="150px" alt="We are a Good Sports club" className="good-sports-logo"/>
