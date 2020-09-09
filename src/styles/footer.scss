@@ -1,4 +1,5 @@
 @import "../styles/colors";
+
 .map-container{
     top: 0;
     left: 0;
@@ -61,6 +62,11 @@
         }
         .mdl-mega-footer__link-list{
             // left: 40%;
+            a{
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 100;
+            }
+         
         }
         ul{
             padding-right: 70%;
@@ -88,6 +94,8 @@
             font-size: 28px;
             padding-right: 20px;
             padding-left: 20px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 100;
             i{
                 color: red;
             }

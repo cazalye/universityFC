@@ -7,7 +7,7 @@ body{
             z-index: 10;
             background-color: $uniBlack;
             // background-color: white;
-            border-bottom: 1px solid black;
+            border-bottom: 1px solid white;
             position: fixed;
         }
         .mdl-layout__header--transparent.is-casting-shadow{
@@ -47,6 +47,7 @@ body{
                     font-size: 18px;
                     line-height: 20px;
                     font-family: 'Open Sans', sans-serif;
+                    font-weight: 100;
                 }
             }
         } 
