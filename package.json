@@ -15,6 +15,11 @@
   },
   "dependencies": {
     "@contentful/rich-text-react-renderer": "^14.1.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-brands-svg-icons": "^5.14.0",
+    "@fortawesome/free-regular-svg-icons": "^5.14.0",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
     "@types/react-mdl": "^1.7.27",
     "bootstrap": "^4.5.2",
     "gatsby": "^2.24.50",
@@ -23,6 +28,8 @@
     "gatsby-plugin-sass": "^2.3.12",
     "gatsby-plugin-sharp": "^2.6.31",
     "gatsby-plugin-smoothscroll": "^1.2.0",
+    "gatsby-plugin-typography": "^2.5.10",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-remark-images": "^3.3.28",
     "gatsby-remark-relative-images": "^2.0.2",
     "gatsby-source-contentful": "^2.3.41",
@@ -33,11 +40,13 @@
     "react": "^16.13.1",
     "react-bootstrap": "^1.3.0",
     "react-dom": "^16.12.0",
+    "react-fontawesome": "^1.7.1",
     "react-helmet": "^6.1.0",
     "react-mdl": "^2.1.0",
     "react-router-dom": "^5.2.0",
     "react-router-hash-link": "^2.0.0",
-    "react-service-worker": "^0.1.1"
+    "react-service-worker": "^0.1.1",
+    "typeface-open-sans": "0.0.75"
   },
   "devDependencies": {
     "env-cmd": "^10.1.0",

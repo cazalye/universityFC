@@ -6,6 +6,7 @@ import {Footer, FooterSection, FooterDropDownSection, FooterLinkList} from 'reac
 // import scrollTo from 'gatsby-plugin-smoothscroll';
 import GoogleMap from './map'; 
 import { Link } from 'gatsby';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 
 class FooterDetail extends Component{
@@ -46,13 +47,16 @@ class FooterDetail extends Component{
             <FooterSection type="bottom">
                 <FooterLinkList className="footer-links">
                         <a href="mailto: utas.soccer@gmail.com" rel="noopener noreferrer" target="_blank">
-                            <i className="fa fa-envelope" aria-hidden="true" />
+                            {/* <i className="fa fa-envelope" aria-hidden="true" /> */}
+                            <FontAwesomeIcon icon={["fas", "envelope"]} style={{color:"red"}} />
                         </a>
                         <a href="https://www.facebook.com/TasmanianUniversitySoccerClub/" rel="noopener noreferrer" target="_blank">
-                            <i className="fa fa-facebook" aria-hidden="true" />
+                            {/* <i className="fa fa-facebook" aria-hidden="true" /> */}
+                            <FontAwesomeIcon icon={["fab", "facebook-f"]} style={{color:"red"}} />
                         </a>
                         <a href="https://www.instagram.com/utas_soccer/" rel="noopener noreferrer" target="_blank">
-                            <i className="fa fa-instagram" aria-hidden="true" />
+                            {/* <i className="fa fa-instagram" aria-hidden="true" /> */}
+                            <FontAwesomeIcon icon={["fab", "instagram"]} style={{color:"red"}} />
                         </a>
                 </FooterLinkList>
             </FooterSection>

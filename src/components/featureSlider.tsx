@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import "../styles/featureSlider.scss";
 import SliderContainer from "./sliderContainer";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 interface SliderState {
     leftArrowClass: "disabled-arrow" | "";
@@ -74,10 +74,13 @@ class FeatureSlider extends Component<any, SliderState> {
         return (
             <div id="feature-slider">
                 <div onClick={e => {this.scrollIncPage(1);}} className={`scroll-button-right ${this.state.rightArrowClass}`}>
-                    <i className="fas fa-chevron-right"/>
+                    {/* <i className="fas fa-chevron-right"/> */}
+                    <FontAwesomeIcon icon={["fas", "chevron-right"]} />
+                    
                 </div>
                 <div onClick={e => {this.scrollIncPage(-1);}} className={`scroll-button-left ${this.state.leftArrowClass}`}>
-                    <i className="fas fa-chevron-left"/>
+                    {/* <i className="fas fa-chevron-left"/> */}
+                    <FontAwesomeIcon icon={["fas", "chevron-left"]} />
                 </div>
                 <div onScroll={e => {this.checkScrollArrowsVisibility();}} className="slider-container">
                     <SliderContainer
