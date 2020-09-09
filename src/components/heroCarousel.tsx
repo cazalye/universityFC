@@ -10,7 +10,7 @@ class HeroCarousel extends Component {
                     <Carousel.Item>
                         <img
                         className="d-block w-100"
-                        src="./img/hero1.jpg"
+                        src="./hero1.jpg"
                         alt="Women's team celebrating the end of 2019 season"
                         />
                         <Carousel.Caption>
@@ -28,7 +28,7 @@ class HeroCarousel extends Component {
                     <Carousel.Item>
                         <img
                         className="d-block w-100"
-                        src="./img/hero2.jpg"
+                        src="./hero2.jpg"
                         alt="Men's team in action"
                         />
                         <Carousel.Caption>
@@ -46,7 +46,7 @@ class HeroCarousel extends Component {
                     <Carousel.Item>
                         <img
                         className="d-block w-100"
-                        src="./img/hero3.jpg"
+                        src="./hero3.jpg"
                         alt="Our senior women's team in action"
                         />
 
@@ -65,7 +65,7 @@ class HeroCarousel extends Component {
                     <Carousel.Item>
                         <img
                         className="d-block w-100"
-                        src="./img/hero4.jpg"
+                        src="./hero4.jpg"
                         alt="Our senior men's team in action"
                         />
                         <Carousel.Caption>
