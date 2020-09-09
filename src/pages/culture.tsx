@@ -1,41 +1,59 @@
 import React, { Component } from 'react';
+import '../styles/pages.scss';
 import SolsticeCredit from '../components/solsticeCredit';
 import Layout from '../components/layout';
+import { graphql } from 'gatsby'
+import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
+import Head from "../components/head";
 
+export const query = graphql`
+    query {
+        contentfulCulture  {
+            title
+            logo{
+                title
+                file{
+                  url
+                }
+              }
+            featureImage{
+                file{
+                  url
+                }
+                title
+            }
+            content{
+                json
+            }
+            cultureGallery{
+                file{
+                    url
+                  }
+                title
+            }
+        }
+    }
+`
 
-class Culture extends Component {
-    render() {
+const Culture = (props) => {
         return (
             <Layout>
-            <div className="page-container">
-                <a id="culture"/>
-                <div className="page-header">
-                    <img src="./img/uni_logo_crop.png" alt="University of Tasmania logo with lion" className="utas-logo" width="180px"/>
-                    <h1 className="page-title">Club Culture</h1>
+                <Head title = "Club Culture"/>
+                <div className="page-container">
+                    <a id="culture"/>
+                    <div className="page-header">
+                        <img src={props.data.contentfulCulture.logo.file.url} alt={props.data.contentfulCulture.logo.title} className="utas-logo" width="180px"/>
+                        <h1 className="page-title">{props.data.contentfulCulture.title}</h1>
+                    </div>
+                    <div className="page-banner">
+                        <img className="banner-image" src={props.data.contentfulCulture.featureImage.file.url} alt={props.data.contentfulCulture.featureImage.title} />
+                        <SolsticeCredit/>
+                    </div> 
+                    <div className="culture-content">{documentToReactComponents(props.data.contentfulCulture.content.json)}</div>
+                    {/* <img className="culture-gallery" src={props.data.contentfulCulture.cultureGallery.file.url} alt={props.data.contentfulCulture.cultureGallery.title} /> */}
                 </div>
-                <div className="page-banner">
-                    <img className="banner-image" src="./img/culture.jpg" alt="We have fun at uni and support each other" />
-                    <SolsticeCredit/>
-                </div>
-
-                <div className="page-content">
-                    <h2 className="social-title">We're a friendly, fun-loving club</h2>
-                    <h3 className="social-subtitle"> Come and join us for a kick!</h3>
-                    <p className="page-description">While we're a competitive club and love a good win on the weekend, we're also all about having fun, being good sports and fostering inclusivity- on and off the field. Some of our social activities:
-                        <ul>
-                            <li>Summer Twilight Competition</li>
-                            <li>Our famous annual Festival (aka ugly knit pub crawl)</li>
-                            <li>Amey's annual curry night</li>
-                            <li>Soup nights at training</li>
-                            <li>Social Teams</li>
-                        </ul>
-                    </p>
-                       
-                </div>
-            </div>
-            </Layout>
-        );
+        </Layout>
+        )
     }
-}
 
-export default Culture;
+export default Culture
