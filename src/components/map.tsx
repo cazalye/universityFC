@@ -15,13 +15,13 @@ const mapStyles = {
                  <Map
                 google={this.props.google}
                 style={mapStyles}
-                initialCenter={{ lat: -42.916477, lng: 147.318527}}
+                initialCenter={{ lat: -42.912189, lng: 147.313820}}
                  />
                 <MapMarker
-                lat={-42.916477}
-                lng={147.318527}
+                lat={-42.912189}
+                lng={147.313820}
                 name="The Hive"
-                color="black"
+                color="black" 
                 />
             </div>
         );

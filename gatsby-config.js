@@ -10,6 +10,22 @@ module.exports = {
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN
       }
     },
+    // {
+    //   resolve: `gatsby-source-googlemaps-static`,
+    //   options: {
+    //       key: process.env.GOOGLEMAPS_KEY,
+    //       // center: `-42.912189, 147.313820 || Olinda Grove, Mount Nelson TAS 7007`,
+    //       center: `-42.912189, 147.313820`,
+    //   }
+    // },
+    // {
+    //   resolve: 'gatsby-source-googlemaps-geocoding',
+    //   options: {
+    //     key: process.env.GOOGLEMAPS_KEY,
+    //     // address: 'Olinda Grove, Mount Nelson TAS 7007'
+    //     address: 'Boston, MA'
+    //   }
+    // },
     'gatsby-plugin-sass',
     'gatsby-plugin-anchor-links',
     'gatsby-plugin-smoothscroll',
@@ -21,6 +37,15 @@ module.exports = {
           families: ["Quentin"],
           urls: ["/fonts/fonts.scss"],
         },
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-google-fonts',
+      options: {
+        fonts: [
+          'material icons',
+          'roboto:300,400,500,700',
+        ],
       },
     },
     {

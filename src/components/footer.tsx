@@ -4,7 +4,8 @@ import {Footer, FooterSection, FooterDropDownSection, FooterLinkList} from 'reac
 // import { HashLink as Link } from 'react-router-hash-link';
 // import AnchorLink from "gatsby-plugin-anchor-links";
 // import scrollTo from 'gatsby-plugin-smoothscroll';
-import GoogleMap from './map'; 
+import GoogleMap from './map';
+// import Map from './googleMap'; 
 import { Link } from 'gatsby';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
@@ -15,6 +16,7 @@ class FooterDetail extends Component{
             
             <Footer size="mega" className="footer">
             <GoogleMap/>
+            {/* <Map/> */}
             <FooterSection type="bottom">
                 <div className="drop-down-container">
                 <FooterDropDownSection title="About University Soccer Club">
