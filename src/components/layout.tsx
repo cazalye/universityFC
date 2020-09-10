@@ -9,7 +9,7 @@ library.add(fab, fas)
 
 const Layout = (props) => {
     return (
-        <div>
+        <div className="layout">
             <Navbar/>
             {props.children}
             <Footer/>
