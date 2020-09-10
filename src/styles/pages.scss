@@ -5,7 +5,7 @@
     width: 100%;
     background-color: black;
     opacity: .9;
-    overflow-y: hidden;
+    overflow: hidden;
     padding-bottom: 11%;
     #fixtures, #teams, #grounds, #training, #culture,#contact{
         padding-top: 5%;
@@ -201,15 +201,13 @@
         
     .page-content{
         .contact-content{
-            h2{
-                font-family: 'Open Sans', sans-serif;
-                font-weight: 100;
-            }
             h4{
-                width: 80%;
-                padding-left: 30%;
                 font-family: 'Open Sans', sans-serif;
                 font-weight: 100;
+                text-align: center;
+            }
+            p{
+                text-align: center;
             }
         }
         .left-col, .right-col{
@@ -306,7 +304,6 @@
             margin-top: 10px;
             // margin-bottom: 40px; 
         }
-
     }
 }
 
@@ -349,18 +346,22 @@
                 padding-top: 2%;
                 padding-bottom: 2%;
             }
-            .social-title{
-                text-align: center;
+            h3{
+                // text-transform: uppercase;
+                padding-top: 30px;
+                margin-bottom: 5px;
+            }
+            h4{
+                padding-top: 20px;
+                margin: 0;
+                text-transform: uppercase;
+            }
+            p{
+                padding-top: 5px;
             }
             .page-subtitle{
                 text-align: center;
                 font-size: 38px;
-            }
-            .social-subtitle{
-                font-size: 14px;
-                color: white;
-                // color: black;
-                padding-bottom: 40px;
             }
             ul{
             width: 90%;
@@ -369,77 +370,95 @@
                     width: 100%;
                 }
             }
-            h4{
-                text-transform: uppercase;
-                padding-top: 80px;
+            .left-col, .right-col{
+                a{
+                    padding-left: 0;
+                }
             }
-            .contact-name{
+            a{
                 padding-left: 5%;
                 width: 100%;
                 padding-top: 10%;
                 font-size: 18px;
-                a{
-                    padding-left: 0;
-                    text-transform: lowercase;
-                }
-            }
-            .training-time{
-                width: 100%;
-                margin: 0;
-                margin-top: 7%;
-            }
-            .captain-img-caption{
-                width: 100%;
-                left: 0;
-            }
-            .left-img, .right-img{
-                width: 100%;
-            }
-            .page-description{
-                width: 95%;
-                margin-right: 0;
-                padding: 0;
-                padding-left: 5%;
-            }
-            
-            .fixtures-subtitle{
-                // width: 100%;
-                padding: 5px;
-                // text-decoration: underline;
-                font-size: 32px;
-                text-transform: uppercase;
-                padding-top: 20px;
-                padding-bottom: 0px;
-            }
-            .team-title{
-                // width: 100%;
-                padding: 5px;
-                font-size: 18px;
 
             }
-            .fft-links{
-                padding: 0;
-                a{
-                    padding: 5px;
-                    padding-right: 10px;
-                    font-size: 14px;
-                    // font-weight: bold;
-                    // text-transform: uppercases;
+            .contact-content{
+                h4{
+                    padding-left: 5%;
+                    width: 100%;
+                    padding-top: 10%;
+                    font-size: 18px;
                 }
             }
         } 
-        .team-container{
-            .page-content-teams{
-                width: 95%;
-                .team-name{
-                    font-size: 18px;
-                }
-                p{
-                    font-size: 12px;
-                    line-height: 18px;
-                }
+
+        .team-content{
+            width: 95%;
+            text-align: center;
+            h4{
+                padding: 5px;
+                padding-left: 0;
+                font-size: 18px;
+                text-align: center;
+            }
+            p{
+                font-size: 12px;
+                line-height: 18px;
+                text-align: center;
+            }
+            img{
+                margin-bottom: 15%;
             }
         }
-        
+        .grounds-content{
+            h3{
+                font-size: 30px;
+                text-align: center;
+                padding: 20px;
+                // padding-bottom: 40px;
+            }
+            p{
+                width: 90%;
+                margin-right: 0;
+                padding: 0 0 0 10%;
+                font-size: 16px;
+            }
+        }
+        .training-subtitle{
+            h3{
+                font-size: 30px;
+                padding-top: 20px;
+            }
+        }
+        .training-content{
+            .left-col, .right-col{
+                width:100%;
+            }
+            h4{
+                font-size: 30px;
+                padding-top: 60px;
+                margin-bottom: 15px;
+            }
+        }
+        .culture-content{
+            h3{
+                font-size: 30px;
+                padding: 10px;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            p{
+                width: 90%;
+                margin-right: 0;
+                padding: 0 0 0 10%;
+                font-size: 16px;
+                margin: 0;
+                margin-top: 40px;
+            }
+            ul{
+                margin: 20px;
+                margin-left: 25px;
+            }
+        }
     }
 }

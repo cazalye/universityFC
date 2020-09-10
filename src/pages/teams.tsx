@@ -58,10 +58,10 @@ const Teams = (props) => {
                     <SolsticeCredit/>
                 </div> 
                 <Grid className="team-content">
-                    <Cell col={6} className="left-col">
+                    <Cell col={6} offsetTablet={1} className="left-col">
                         {documentToReactComponents(props.data.contentfulTeams.content.json, options)}
-                    </Cell>
-                    <Cell col={6} className="right-col">
+                    </Cell> 
+                    <Cell col={6} offsetTablet={1} className="right-col">
                        {documentToReactComponents(props.data.contentfulTeams.contentMen.json, options)}
                     </Cell>
                 </Grid>

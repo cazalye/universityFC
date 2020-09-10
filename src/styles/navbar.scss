@@ -54,11 +54,11 @@ body{
         .mdl-layout__drawer{
             height: 100vh;
             background-color: white; 
-            background-color: black; 
+            // background-color: black; 
             .mdl-layout-title{
                 .header-title{
                     color: $uniBlack;
-                    color: white;
+                    // color: white;
                     // color: red;
                     text-align: left;
                     font-family: 'Open Sans', sans-serif;
@@ -72,7 +72,7 @@ body{
             .mdl-navigation__link{
                 position: relative;
                 color: black;
-                color: white;
+                // color: white;
                 font-size: 18px;
                 font-family: 'Open Sans', sans-serif;
                 font-weight: 100;
@@ -81,6 +81,7 @@ body{
         .mdl-layout__drawer .mdl-navigation{
             position: relative;
             padding-top:70px;
+            padding-left: 10px;
             // height: 300vh;
         }
         .mdl-layout__drawer-button{
@@ -109,7 +110,7 @@ body{
 // PHONE/TABLET: 0-450
 @media (max-width: 1024px) {
     body .mdl-layout .mdl-layout__inner-container {
-        z-index: 10;
+        z-index: 18;
         height: auto;
         position: fixed;
         .mdl-layout__obfuscator{

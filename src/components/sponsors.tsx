@@ -12,7 +12,7 @@ class Sponsors extends Component {
                     <h1>UNIVERSITY FOOTBALL CLUB</h1>
                 </div>
                 <h4>Home of the Uni Bees</h4>
-                <img src="./bee.png" alt="bee" width="20%"/>
+                <img className="uni-bee" src="./bee.png" alt="bee" width="20%"/>
                 <div className="sponsors">
                 <a href="https://goodsports.com.au/" className="good-sports" rel="noopener noreferrer" target="_blank">
                     <img src="./good-sports.png" width="150px" alt="We are a Good Sports club" className="good-sports-logo"/>

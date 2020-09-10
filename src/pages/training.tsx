@@ -61,10 +61,10 @@ const Training = (props) => {
                     </div> 
                     <div className="training-subtitle">{documentToReactComponents(props.data.contentfulTraining.subtitle.json, options)}</div>
                     <Grid className="training-content">
-                        <Cell col={6} className="left-col">
+                        <Cell col={6} offsetTablet={1} className="left-col">
                             {documentToReactComponents(props.data.contentfulTraining.content.json, options)}
                         </Cell>
-                        <Cell col={6} className="right-col">
+                        <Cell col={6} offsetTablet={1} className="right-col">
                         {documentToReactComponents(props.data.contentfulTraining.contentWomen.json, options)}
                         </Cell>
                     </Grid>
