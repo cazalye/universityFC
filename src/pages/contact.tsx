@@ -53,8 +53,9 @@ const Contact = (props) => {
                     <SolsticeCredit/>
                 </div>
                 <div className="page-content">
-                    <h2>Contact Us</h2>
-                    <div className="contact-content">{documentToReactComponents(props.data.contentfulContact.content.json)}</div>
+                    <div className="contact-content">
+                        <h2 className="contact-subtitle">Contact Us</h2>
+                        {documentToReactComponents(props.data.contentfulContact.content.json)}</div>
                 </div>
             </div>
         </Layout>
