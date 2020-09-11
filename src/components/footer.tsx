@@ -63,7 +63,7 @@ class FooterDetail extends Component{
                 </FooterLinkList>
             </FooterSection>
             <div className="copyright">
-                    <p> &copy; Copyright University Soccer Club. All rights reserved. Designed by <a href="https://portfolio.cazalye.com"  rel="noopener noreferrer" target="_blank"> cazalye</a></p>
+                    <p> &copy; 2020 University Football Club. Designed by <a href="https://portfolio.cazalye.com"  rel="noopener noreferrer" target="_blank"> cazalye</a></p>
             </div>
         </Footer>
          )
