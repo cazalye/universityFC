@@ -19,7 +19,7 @@ class FooterDetail extends Component{
             {/* <Map/> */}
             <FooterSection type="bottom">
                 <div className="drop-down-container">
-                <FooterDropDownSection title="About University Soccer Club">
+                <FooterDropDownSection title="About University Football Club">
                     <FooterLinkList>
                         <Link to="/culture#culture">Our Culture</Link>
                         <Link to="/grounds#grounds">Our Home Ground- the Hive</Link>
