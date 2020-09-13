@@ -15,13 +15,13 @@ class Navbar extends Component <any, any> {
         return (
             <Layout>
                 <div className="logo-nav">
-                    <Link to="/#landing">
+                    <Link to="/#home">
                         <img className="logo" alt="Uni soccer club logo" src="./uni_soccer_logo.png" width="170px"/> 
                     </Link>
                 </div>
                 <Header transparent title="">
                     <Navigation >
-                        <Link to="/#landing">Home</Link> 
+                        <Link to="/#home">Home</Link> 
                         <Link to="/fixtures#fixtures">Fixtures</Link> 
                         <Link to="/teams#teams">Teams</Link> 
                         <Link to="/grounds#grounds">Grounds</Link>
@@ -34,13 +34,13 @@ class Navbar extends Component <any, any> {
                 </Header>
                 <Drawer title={<Link onClick={() => this.hideToggle()} to="/" className="header-title">University Football Club</Link> as any}>
                     <Navigation className="drawer-nav" >
-                        <Link onClick={() => this.hideToggle()} to="/#landing">Home</Link> 
+                        <Link onClick={() => this.hideToggle()} to="/#home">Home</Link> 
                         <Link onClick={() => this.hideToggle()} to="/fixtures#fixtures">Fixtures</Link> 
                         <Link onClick={() => this.hideToggle()} to="/teams#teams">Teams</Link> 
                         <Link onClick={() => this.hideToggle()} to="/grounds#grounds">Grounds</Link>
                         <Link onClick={() => this.hideToggle()} to="/training#training">Training</Link>
                         <Link onClick={() => this.hideToggle()} to="/culture#culture">Club Culture</Link>
-                        <Link onClick={() => this.hideToggle()} to="/#landing">Sponsors</Link>
+                        <Link onClick={() => this.hideToggle()} to="/#sponsors">Sponsors</Link>
                         <Link onClick={() => this.hideToggle()} to="/contact#contact">Contact</Link>
                         <a onClick={() => this.hideToggle()} href="https://footballfedtas.com.au/" rel="noopener noreferrer" target="_blank">FFT</a> 
                     </Navigation>

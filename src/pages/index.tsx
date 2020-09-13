@@ -14,7 +14,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const IndexPages = () => {
 
   return (
-    <div id="landing">
+    <div id="home">
       <Layout>
         <Head title="Home"/>
         <HeroCarousel/>
