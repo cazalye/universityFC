@@ -1,12 +1,11 @@
 @import './colors';
 
 #home{
-    // position: relative; 
+    position: unset; 
     width: 100%;
     padding-top: 40px;
     background-color: rgba(0,0,0,0.9);
     opacity: .9;
-    // overflow-x: hidden;
 }
 .solstice-credit-landing{
     display: none;
