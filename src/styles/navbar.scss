@@ -112,9 +112,6 @@ body{
         z-index: 10;
         height: auto;
         position: fixed;
-        .mdl-layout__header{
-            background-color: white;
-        }
         .mdl-layout__obfuscator{
             height: 56px;
             position: relative;
@@ -129,7 +126,7 @@ body{
             padding: 12px;
             border-bottom: 2px solid rgba(0,0,0,0.9);
             // border-bottom: 2px solid white;
-            z-index: 100;
+            // z-index: 100;
             background-color: white;
             position: fixed;
             .logo{

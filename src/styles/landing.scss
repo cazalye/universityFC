@@ -1,12 +1,10 @@
 @import './colors';
 
 #home{
-    // position: unset; 
     width: 100%;
     padding-top: 40px;
-    // background-color: rgba(0,0,0,0.9);
+    background-color: rgba(0,0,0,0.9);
     opacity: .9;
-    // z-index: 0;
 }
 .solstice-credit-landing{
     display: none;
@@ -14,6 +12,9 @@
 .sponsor-section{
     text-align: center;
     margin: 5%;
+    #sponsors{
+        // padding-top: 8%;
+    }
     .uni-title{
         background-color: rgba(0,0,0,0.9);
         width: 100%;
