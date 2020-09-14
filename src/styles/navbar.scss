@@ -6,7 +6,6 @@ body{
         .mdl-layout__header{
             z-index: 10;
             background-color: $uniBlack;
-            // background-color: white;
             border-bottom: 1px solid white;
             position: fixed;
         }
@@ -110,9 +109,12 @@ body{
 // PHONE/TABLET: 0-450
 @media (max-width: 1024px) {
     body .mdl-layout .mdl-layout__inner-container {
-        z-index: 18;
+        z-index: 10;
         height: auto;
         position: fixed;
+        .mdl-layout__header{
+            background-color: white;
+        }
         .mdl-layout__obfuscator{
             height: 56px;
             position: relative;
@@ -129,6 +131,7 @@ body{
             // border-bottom: 2px solid white;
             z-index: 100;
             background-color: white;
+            position: fixed;
             .logo{
                 position: absolute;
                 left: 10px;
