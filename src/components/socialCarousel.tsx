@@ -11,70 +11,70 @@ class SocialCarousel extends Component {
                         <img
                         className="d-block w-100"
                         src="./social1.jpg"
-                        alt=""
+                        alt="Celebrating awards night"
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                         className="d-block w-100"
                         src="./social2.jpg"
-                        alt=""
+                        alt="Celebrating awards night"
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                         className="d-block w-100"
                         src="./social3.jpg"
-                        alt=""
+                        alt="Pregame huddle"
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                         className="d-block w-100"
                         src="./social4.jpg"
-                        alt=""
+                        alt="Bus trip to Ulverstone"
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                         className="d-block w-100"
                         src="./social5.jpg"
-                        alt=""
+                        alt="Celebrating the season win"
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                         className="d-block w-100"
                         src="./social6.jpg"
-                        alt=""
+                        alt="A muddy night game"
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                         className="d-block w-100"
                         src="./social7.jpg"
-                        alt=""
+                        alt="Bus trip to Ulverstone"
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                         className="d-block w-100"
                         src="./social8.jpg"
-                        alt=""
+                        alt="Festival Pub Crawl"
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                         className="d-block w-100"
                         src="./social9.jpg"
-                        alt=""
+                        alt="Celebrating a win"
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                         className="d-block w-100"
                         src="./social10.jpg"
-                        alt=""
+                        alt="A successful season"
                         />
                     </Carousel.Item>
                 </Carousel>
