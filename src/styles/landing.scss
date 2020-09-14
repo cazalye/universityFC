@@ -3,7 +3,7 @@
 #home{
     // position: relative; 
     width: 100%;
-    padding-top: 55px;
+    padding-top: 40px;
     background-color: rgba(0,0,0,0.9);
     opacity: .9;
     // overflow-x: hidden;
@@ -83,7 +83,10 @@
 // Responsive Design
 // PHONE: 0-450
 // @media (max-width: 450px) {
-@media (max-width: 1024px) { 
+@media (max-width: 1024px) {
+    #home{
+        padding-top: 55px;
+    }
     .solstice-credit-landing{
         display: block;
         color: white; 
