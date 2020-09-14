@@ -5,6 +5,7 @@ import Layout from '../components/layout';
 import { graphql } from 'gatsby'
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 import Head from "../components/head";
+import SocialCarousel from "../components/socialCarousel";
 
 export const query = graphql`
     query {
@@ -51,6 +52,7 @@ const Culture = (props) => {
                     </div> 
                     <div className="culture-content">{documentToReactComponents(props.data.contentfulCulture.content.json)}</div>
                     {/* <img className="culture-gallery" src={props.data.contentfulCulture.cultureGallery.file.url} alt={props.data.contentfulCulture.cultureGallery.title} /> */}
+                    <SocialCarousel/>
                 </div>
         </Layout>
         )
