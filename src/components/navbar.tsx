@@ -27,6 +27,7 @@ class Navbar extends Component <any, any> {
                         <Link to="/grounds#grounds">Grounds</Link>
                         <Link to="/training#training">Training</Link>
                         <Link to="/culture#culture">Club Culture</Link>
+                        <Link to="/history#history">Club History</Link>
                         <Link to="/#sponsors">Sponsors</Link>
                         <Link to="/contact#contact">Contact</Link>
                         <a href="https://footballfedtas.com.au/" rel="noopener noreferrer" target="_blank">FFT</a> 
@@ -40,6 +41,7 @@ class Navbar extends Component <any, any> {
                         <Link onClick={() => this.hideToggle()} to="/grounds#grounds">Grounds</Link>
                         <Link onClick={() => this.hideToggle()} to="/training#training">Training</Link>
                         <Link onClick={() => this.hideToggle()} to="/culture#culture">Club Culture</Link>
+                        <Link onClick={() => this.hideToggle()} to="/history#history">Club History</Link>
                         <Link onClick={() => this.hideToggle()} to="/#sponsors">Sponsors</Link>
                         <Link onClick={() => this.hideToggle()} to="/contact#contact">Contact</Link>
                         <a onClick={() => this.hideToggle()} href="https://footballfedtas.com.au/" rel="noopener noreferrer" target="_blank">FFT</a> 

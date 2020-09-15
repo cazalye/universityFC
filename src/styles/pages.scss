@@ -4,7 +4,17 @@
     width: 60%;
     margin-left: 20%;
     margin-top: 8%;
+    .carousel-subtitle{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 100;
+        text-align: center;
+        color: red;
+        margin-top: 8%;
+        margin-bottom: 2%;
+        font-size: 24px;
+    }
 }
+
 .page-container{
     position: relative;
     width: 100%;
@@ -12,7 +22,7 @@
     opacity: .9;
     overflow: hidden;
     padding-bottom: 11%;
-    #fixtures, #teams, #grounds, #training, #culture,#contact{
+    #fixtures, #teams, #grounds, #training, #culture, #contact, #history{
         padding-top: 5%;
     }
     .page-header{
@@ -168,6 +178,33 @@
             font-size: 18px;
             line-height: 28px;
         } 
+    }
+    .history-content{
+        margin-top: 5%;
+        text-align: center;
+        h6{
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 100;
+            text-align: center;
+            color: red;
+            margin-top: 8%;
+            margin-bottom: 1%;
+            font-size: 24px;
+        }   
+        p{
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 100;
+            text-align: left;
+            width: 80%;
+            padding-left: 20%;
+            color: white;
+            font-size: 18px;
+            line-height: 28px;
+            margin-top: 2%;
+        }
+        img{
+            text-align: center;
+        }
     }
     .culture-content{
         h3{
@@ -337,6 +374,16 @@
 // Responsive Design
 // PHONE/TABLET: 0-1024
 @media (max-width: 1024px) {
+    .social-carousel{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 15%;
+        .carousel-subtitle{
+            margin-top: 15%;
+            margin-bottom: 3%;
+            font-size: 14px;
+        }
+    }
     .page-container{
         .page-header{
             padding-top: 110px;
@@ -489,6 +536,26 @@
                 margin-bottom: 15px;
             }
         }
+        
+    .history-content{
+        margin-top: 10%;
+        h6{
+            margin-top: 15%;
+            margin-bottom: 3%;
+            font-size: 16px;
+        }   
+        p{
+            width: 90%;
+            padding-left: 10%;
+            font-size: 16px;
+            line-height: 26px;
+            margin-top: 5%;
+        }
+        img{
+            text-align: center;
+            width: 80%;
+        }
+    }
         .culture-content{
             h3{
                 font-size: 30px;
