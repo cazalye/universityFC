@@ -16,11 +16,11 @@ class FooterDetail extends Component{
                 <div className="drop-down-container">
                 <FooterDropDownSection title="About University Football Club">
                     <FooterLinkList>
-                        <Link to="/culture#culture">Our Culture</Link>
-                        <Link to="/grounds#grounds">Our Home Ground- the Hive</Link>
-                        <Link to="/teams#teams">Our Teams</Link>
-                        <Link to="/training#training">Training</Link>
-                        <Link to="/fixtures#fixtures">Games</Link>
+                        <Link to="/culture">Our Culture</Link>
+                        <Link to="/grounds">Our Home Ground- the Hive</Link>
+                        <Link to="/teams">Our Teams</Link>
+                        <Link to="/training">Training</Link>
+                        <Link to="/fixtures">Games</Link>
                     </FooterLinkList>
                 </FooterDropDownSection>
                 <FooterDropDownSection title="FFT Links">
@@ -34,7 +34,7 @@ class FooterDetail extends Component{
                 <FooterDropDownSection title="Contact Us">
                     <FooterLinkList>
                         <a href="mailto: utas.soccer@gmail.com" target="_blank" rel="noopener noreferrer">Email: utas.soccer@gmail.com </a>
-                        <Link to="/contact#contact">Committee Member Contacts</Link>
+                        <Link to="/contact">Committee Member Contacts</Link>
                         <a href="https://www.facebook.com/TasmanianUniversitySoccerClub/" target="_blank" rel="noopener noreferrer">Facebook</a>
                         <a href="https://www.instagram.com/utas_soccer/" target="_blank" rel="noopener noreferrer">Instagram</a>
                     </FooterLinkList>
