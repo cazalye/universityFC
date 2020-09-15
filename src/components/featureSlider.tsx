@@ -125,6 +125,12 @@ class FeatureSlider extends Component<any, SliderState> {
                         link= "/training"
                         title= "Training"
                     />
+                    <SliderContainer
+                        image= "/history.jpg"
+                        alt= "University through the ages"
+                        link= "/history"
+                        title= "Club History"
+                    />
                 </div>
             </div>
         );
