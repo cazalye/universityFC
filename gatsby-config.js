@@ -14,15 +14,15 @@ module.exports = {
     'gatsby-plugin-anchor-links',
     'gatsby-plugin-smoothscroll',
     'gatsby-plugin-sharp',
-    {
-      resolve: "gatsby-plugin-web-font-loader",
-      options: {
-        custom: {
-          families: ["Quentin"],
-          urls: ["/fonts/fonts.scss"],
-        },
-      },
-    },
+    // {
+    //   resolve: "gatsby-plugin-web-font-loader",
+    //   options: {
+    //     custom: {
+    //       families: ["Quentin"],
+    //       urls: ["/fonts/fonts.scss"],
+    //     },
+    //   },
+    // },
     {
       resolve: 'gatsby-plugin-google-fonts',
       options: {
