@@ -10,6 +10,7 @@ module.exports = {
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN
       }
     },
+    'react-mdl',
     'gatsby-plugin-sass',
     'gatsby-plugin-anchor-links',
     'gatsby-plugin-smoothscroll',
