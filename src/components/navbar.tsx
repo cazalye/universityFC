@@ -3,6 +3,11 @@ import React, { Component } from 'react';
 import {Layout, Header, Navigation, Drawer} from 'react-mdl';
 import { Link } from 'gatsby';
 
+
+
+
+
+
 class Navbar extends Component <any, any> {
     hideToggle() {
         const selectorId = document.querySelector('.mdl-layout') as any;
@@ -21,8 +26,8 @@ class Navbar extends Component <any, any> {
                 <Header transparent title="">
                     <Navigation >
                         <Link to="/#home">Home</Link> 
-                        <Link to="/fixtures">Fixtures</Link> 
-                        <Link to="/teams">Teams</Link> 
+                        <Link to="/fixtures/">Fixtures</Link> 
+                        <Link to="/teams/">Teams</Link> 
                         <Link to="/grounds">Grounds</Link>
                         <Link to="/training">Training</Link>
                         <Link to="/culture">Club Culture</Link>
