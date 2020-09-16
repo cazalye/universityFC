@@ -39,7 +39,12 @@ module.exports = {
           path: `${__dirname}/src/`
       }
     },
-    
+      {
+        resolve: `gatsby-plugin-layout`,
+        options: {
+          component: require.resolve(`./src/components/layout.tsx`),
+        },
+      },
     {
       resolve: 'gatsby-transformer-remark',
       options: {
