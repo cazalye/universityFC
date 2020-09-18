@@ -28,10 +28,10 @@ const NewsPage = () => {
               {data.allContentfulNews.edges.map((edge) => {
                   return (
                       <li>
-                          <Link to={`/news/${edge.node.slug}`}>
+                          <a href={`/news/${edge.node.slug}`}>
                               <h2>{edge.node.title}</h2>
                               <p>{edge.node.date}</p>
-                          </Link>
+                          </a>
                       </li>
                   )
               })}

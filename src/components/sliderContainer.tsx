@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'gatsby';
+// import { Link } from 'gatsby';
 interface Props{
     image: string;
     alt: string;
@@ -11,12 +11,12 @@ class SliderContainer extends Component <Props, Props> {
 
         return (
         <div  className="post-container">
-            <Link className="slider-link" to={this.props.link}> 
+            <a className="slider-link" href={this.props.link}> 
                 <img src={this.props.image} alt={this.props.alt} className="post-image"/>
                 <div className="text-container">
                     <h1 className="slider-title">{this.props.title}</h1>
                 </div>
-            </Link>
+            </a>
         </div>
         );
     }

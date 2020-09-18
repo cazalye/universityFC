@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import "../styles/footer.scss";
 import {Footer, FooterSection, FooterDropDownSection, FooterLinkList} from 'react-mdl';
 import Map from './Map';
-import { Link } from 'gatsby';
+// import { Link } from 'gatsby';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 
@@ -16,11 +16,11 @@ class FooterDetail extends Component{
                 <div className="drop-down-container">
                 <FooterDropDownSection title="About University Football Club">
                     <FooterLinkList>
-                        <Link to="/culture">Our Culture</Link>
-                        <Link to="/grounds">Our Home Ground- the Hive</Link>
-                        <Link to="/teams">Our Teams</Link>
-                        <Link to="/training">Training</Link>
-                        <Link to="/fixtures">Games</Link>
+                        <a href="/culture/">Our Culture</a>
+                        <a href="/grounds/">Our Home Ground- the Hive</a>
+                        <a href="/teams/">Our Teams</a>
+                        <a href="/training/">Training</a>
+                        <a href="/fixtures/">Games</a>
                     </FooterLinkList>
                 </FooterDropDownSection>
                 <FooterDropDownSection title="FFT Links">
@@ -34,7 +34,7 @@ class FooterDetail extends Component{
                 <FooterDropDownSection title="Contact Us">
                     <FooterLinkList>
                         <a href="mailto: utas.soccer@gmail.com" target="_blank" rel="noopener noreferrer">Email: utas.soccer@gmail.com </a>
-                        <Link to="/contact">Committee Member Contacts</Link>
+                        <a href="/contact/">Committee Member Contacts</a>
                         <a href="https://www.facebook.com/TasmanianUniversitySoccerClub/" target="_blank" rel="noopener noreferrer">Facebook</a>
                         <a href="https://www.instagram.com/utas_soccer/" target="_blank" rel="noopener noreferrer">Instagram</a>
                     </FooterLinkList>
@@ -44,15 +44,12 @@ class FooterDetail extends Component{
             <FooterSection type="bottom">
                 <FooterLinkList className="footer-links">
                         <a href="mailto: utas.soccer@gmail.com" rel="noopener noreferrer" target="_blank">
-                            {/* <i className="fa fa-envelope" aria-hidden="true" /> */}
                             <FontAwesomeIcon icon={["fas", "envelope"]} style={{color:"red"}} />
                         </a>
                         <a href="https://www.facebook.com/TasmanianUniversitySoccerClub/" rel="noopener noreferrer" target="_blank">
-                            {/* <i className="fa fa-facebook" aria-hidden="true" /> */}
                             <FontAwesomeIcon icon={["fab", "facebook-f"]} style={{color:"red"}} />
                         </a>
                         <a href="https://www.instagram.com/utas_soccer/" rel="noopener noreferrer" target="_blank">
-                            {/* <i className="fa fa-instagram" aria-hidden="true" /> */}
                             <FontAwesomeIcon icon={["fab", "instagram"]} style={{color:"red"}} />
                         </a>
                 </FooterLinkList>

@@ -1,9 +1,9 @@
 import "../styles/navbar.scss";
 import React, { Component } from 'react';
 import {Layout, Header, Navigation, Drawer} from 'react-mdl';
-import { Link } from 'gatsby';
-
-
+// import { Link } from 'gatsby';
+import 'react-mdl/extra/material.css';
+import 'react-mdl/extra/material.js';
 
 
 
@@ -19,35 +19,34 @@ class Navbar extends Component <any, any> {
         return (
             <Layout>
                 <div className="logo-nav">
-                    <Link to="/#home">
-                        <img className="logo" alt="Uni soccer club logo" src="./uni_soccer_logo.png" width="170px"/> 
-                    </Link>
+                    <a href="/">
+                        <img className="logo" alt="Uni soccer club logo" src="/uni_soccer_logo.png" width="170px"/> 
+                    </a>
                 </div>
                 <Header transparent title="">
                     <Navigation >
-                        <Link to="/#home">Home</Link> 
-                        <Link to="/fixtures">Fixtures</Link> 
-                        <Link to="/teams">Teams</Link> 
-                        <Link to="/grounds">Grounds</Link>
-                        <Link to="/training">Training</Link>
-                        <Link to="/culture">Club Culture</Link>
-                        <Link to="/history">Club History</Link>
-                        <Link to="/#sponsors">Sponsors</Link>
-                        <Link to="/contactUs">Contact</Link>
+                        <a href="/">Home</a> 
+                        {/* <a href="/news">News</a>  */}
+                        <a href="/fixtures/">Fixtures</a> 
+                        <a href="/teams/">Teams</a> 
+                        <a href="/grounds/">Grounds</a>
+                        <a href="/training/">Training</a>
+                        <a href="/culture/">Club Culture</a>
+                        <a href="/history/">Club History</a>
+                        <a href="/contact/">Contact</a>
                         <a href="https://footballfedtas.com.au/" rel="noopener noreferrer" target="_blank">FFT</a> 
                     </Navigation>
                 </Header>
-                <Drawer title={<Link onClick={() => this.hideToggle()} to="/" className="header-title">University Football Club</Link> as any}>
+                <Drawer title={<a onClick={() => this.hideToggle()} href="/" className="header-title">University Football Club</a> as any}>
                     <Navigation className="drawer-nav" >
-                        <Link onClick={() => this.hideToggle()} to="/#home">Home</Link> 
-                        <Link onClick={() => this.hideToggle()} to="/fixtures">Fixtures</Link> 
-                        <Link onClick={() => this.hideToggle()} to="/teams">Teams</Link> 
-                        <Link onClick={() => this.hideToggle()} to="/grounds">Grounds</Link>
-                        <Link onClick={() => this.hideToggle()} to="/training">Training</Link>
-                        <Link onClick={() => this.hideToggle()} to="/culture">Club Culture</Link>
-                        <Link onClick={() => this.hideToggle()} to="/history">Club History</Link>
-                        <Link onClick={() => this.hideToggle()} to="/#sponsors">Sponsors</Link>
-                        <Link onClick={() => this.hideToggle()} to="/contactUs">Contact</Link>
+                        <a onClick={() => this.hideToggle()} href="/">Home</a> 
+                        <a onClick={() => this.hideToggle()} href="/fixtures/">Fixtures</a> 
+                        <a onClick={() => this.hideToggle()} href="/teams/">Teams</a> 
+                        <a onClick={() => this.hideToggle()} href="/grounds/">Grounds</a>
+                        <a onClick={() => this.hideToggle()} href="/training/">Training</a>
+                        <a onClick={() => this.hideToggle()} href="/culture/">Club Culture</a>
+                        <a onClick={() => this.hideToggle()} href="/history/">Club History</a>
+                        <a onClick={() => this.hideToggle()} href="/contact/">Contact</a>
                         <a onClick={() => this.hideToggle()} href="https://footballfedtas.com.au/" rel="noopener noreferrer" target="_blank">FFT</a> 
                     </Navigation>
                 </Drawer>
