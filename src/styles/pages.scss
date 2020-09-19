@@ -44,6 +44,9 @@
     }
     .page-banner{
         text-align: center;
+        .news-image{
+            width: 40%;
+        }
         .banner-image{
             width: 75%;
         }
@@ -249,7 +252,7 @@
             } 
         }
     }
-    .news-content{
+    .news-page-content{
         margin-top: 5%;
         ul{
             list-style: none;
@@ -278,6 +281,35 @@
             }
         }
     }  
+    .news-content{
+        margin-top: 5%;
+        h2{
+            color: red;
+            margin-top: 4%;
+            width: 80%;
+            padding-left: 10%;
+            margin-bottom: 0.2rem;
+        }
+        p{
+            color: white;
+            width: 80%;
+            padding-left: 10%;
+            margin-top: 2%;
+        }
+        ul{
+            padding-left: 10%;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            li{
+                list-style-type: none;
+                p{
+                    color: white;
+                    padding-left: 5%;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
     .page-content{
         .contact-content{
             h4{
@@ -424,6 +456,9 @@
             }
         }
         .page-banner{
+            .news-image{
+                width: 90%;
+            }
             .banner-image{
                 width: 90%;
             }
@@ -437,7 +472,7 @@
                 }
             }
         } 
-        .news-content{
+        .news-page-content{
             margin-top: 10%;
             ul{
                 padding: 0;
@@ -452,8 +487,34 @@
                     padding-left: 10%;
                 }
             }
-          
         }  
+        .news-content{
+            margin-top: 10%;
+            h2{
+                margin-top: 5%;
+                width: 90%;
+                padding-left: 10%;
+                text-align: center;
+            }
+            p{
+                width: 90%;
+                padding-left: 10%;
+                margin-top: 2%;
+            }
+            ul{
+                padding-left: 10%;
+                width: 90%;
+                margin-top: 10%;
+                margin-bottom: 10%;
+                li{
+                    p{
+                        color: white;
+                        padding-left: 5%;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
         .page-content{
             padding-bottom: 10%;
             .left-col, .right-col{
