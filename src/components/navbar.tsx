@@ -26,7 +26,7 @@ class Navbar extends Component <any, any> {
                 <Header transparent title="">
                     <Navigation >
                         <a href="/">Home</a> 
-                        {/* <a href="/news">News</a>  */}
+                        <a href="/news">News</a> 
                         <a href="/fixtures/">Fixtures</a> 
                         <a href="/teams/">Teams</a> 
                         <a href="/grounds/">Grounds</a>
@@ -40,6 +40,7 @@ class Navbar extends Component <any, any> {
                 <Drawer title={<a onClick={() => this.hideToggle()} href="/" className="header-title">University Football Club</a> as any}>
                     <Navigation className="drawer-nav" >
                         <a onClick={() => this.hideToggle()} href="/">Home</a> 
+                        <a onClick={() => this.hideToggle()} href="/news/">News</a> 
                         <a onClick={() => this.hideToggle()} href="/fixtures/">Fixtures</a> 
                         <a onClick={() => this.hideToggle()} href="/teams/">Teams</a> 
                         <a onClick={() => this.hideToggle()} href="/grounds/">Grounds</a>
