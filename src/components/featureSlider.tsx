@@ -107,30 +107,37 @@ class FeatureSlider extends Component<any, SliderState> {
                         link= "https://footballfedtas.com.au/rules-forms/"
                         title= "Rules & Regulations"
                     /> 
-                     <SliderContainer
-                        image= "/rules.jpg"
-                        alt= "Pre-game huddle of men's team"
-                        link= "/teams"
-                        title= "Teams"
+                    <SliderContainer
+                        image= "/news.jpg"
+                        alt= "2019 award winners"
+                        link= "/news"
+                        title= "News"
                     />
                     <SliderContainer
                         image= "/soph.jpg"
                         alt= "A senior women's player running with the ball"
                         link= "https://footballfedtas.com.au/covid-19-info/"
                         title= "Covid-19 Info"
-                    /> 
+                    />
+                     <SliderContainer
+                        image= "/rules.jpg"
+                        alt= "Pre-game huddle of men's team"
+                        link= "/teams"
+                        title= "Teams"
+                    />
+                     <SliderContainer
+                        image= "/history.jpg"
+                        alt= "University through the ages"
+                        link= "/history"
+                        title= "Club History"
+                    />
                     <SliderContainer
                         image= "/training.jpg"
                         alt= "Players training at Olinda Grove"
                         link= "/training"
                         title= "Training"
                     />
-                    <SliderContainer
-                        image= "/history.jpg"
-                        alt= "University through the ages"
-                        link= "/history"
-                        title= "Club History"
-                    />
+                  
                 </div>
             </div>
         );
