@@ -20,25 +20,32 @@ const NewsPage = () => {
     `)
 
     return (
-      <div>
           <Layout>
            <Head title="News"/>
-          <h1>News</h1>
-          <ol>
-              {data.allContentfulNews.edges.map((edge) => {
-                  return (
-                      <li>
-                          <a href={`/news/${edge.node.slug}`}>
-                              <h2>{edge.node.title}</h2>
-                              <p>{edge.node.date}</p>
-                          </a>
-                      </li>
-                  )
-              })}
-          </ol>
+            <div className="page-container">
+                <div className="page-header">
+                    <img src="/uni_logo_crop.png" alt="University of Tasmania logo with lion" className="utas-logo" width="180px"/>
+                    <h1 className="page-title">News</h1>
+                </div>
+                <div className="page-banner">
+                    <img className="banner-image" src="/newsPage.jpg" alt="Awards night 2019" />
+                </div>
+                <div className="news-content">
+                    <ul>
+                        {data.allContentfulNews.edges.map((edge) => {
+                        return (
+                            <li>
+                                <a href={`/news/${edge.node.slug}`}>
+                                    <h2>{edge.node.title}</h2>
+                                    <p>{edge.node.date}</p>
+                                </a>
+                            </li>
+                                )
+                            })}
+                    </ul>
+                </div>
+            </div>
           </Layout>
-      </div>
-     
     )
 }
 
