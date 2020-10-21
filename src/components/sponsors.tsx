@@ -17,6 +17,9 @@ class Sponsors extends Component {
                     <a href="https://goodsports.com.au/" className="good-sports" rel="noopener noreferrer" target="_blank">
                         <img src="./good-sports.png" width="150px" alt="We are a Good Sports club" className="good-sports-logo"/>
                     </a>
+                    <div className="tas-gov-logo">
+                        <img src="./tasgovlogo.jpg" alt="Supported by Tasmanian Government" width="220px"/>
+                    </div>
                     <h2 className="sponsor-title">
                         Proudly Sponsored By:
                     </h2>
@@ -36,9 +39,6 @@ class Sponsors extends Component {
                             alt="Spyne Goalie Gear Logo"
                             link="https://spynegk.com.au/"
                         />
-                    </div>
-                    <div className="tas-gov-logo">
-                        <img src="./tasgovlogo.jpg" alt="Supported by Tasmanian Government" width="220px"/>
                     </div>
                 </div>
                 
