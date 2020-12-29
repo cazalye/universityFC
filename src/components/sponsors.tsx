@@ -9,7 +9,7 @@ class Sponsors extends Component {
                 <a id="sponsors"/>
                 <div className="uni-title">
                     <img src="./uni_logo_crop.png" alt="University of Tasmania logo with lion" className="utas-logo-sponsor" width="180px"/>
-                    <h1>UNIVERSITY FOOTBALL CLUB</h1>
+                    <h1>University of Tasmania Football (Soccer) Club</h1>
                 </div>
                 <h4>Home of the Uni Bees</h4>
                 <img className="uni-bee" src="./bee.png" alt="bee" width="20%"/>

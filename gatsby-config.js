@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'University Football Club',
+    title: 'University of Tasmania Football (Soccer) Club INC',
   },
   plugins: [
     {

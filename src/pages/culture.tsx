@@ -52,6 +52,7 @@ const Culture = (props) => {
                     </div> 
                     <div className="culture-content">{documentToReactComponents(props.data.contentfulCulture.content.json)}</div>
                     {/* <img className="culture-gallery" src={props.data.contentfulCulture.cultureGallery.file.url} alt={props.data.contentfulCulture.cultureGallery.title} /> */}
+                    <a className="privacy-link" href="/privacy/">Club Member Protection Policy</a>
                     <SocialCarousel/>
                 </div>
         </Layout>

@@ -11,11 +11,11 @@ function Map() {
             <Marker
             position={{ lat: -42.912295, lng: 147.313701 }}
             // onClick={props.onToggleOpen}
-            key="University Football Club"
+            key="University of Tasmania Football (Soccer) Club"
             />
             <InfoWindow position={{ lat: -42.912295, lng: 147.313701}}>
                 <div>
-                    <p style={{color: "red", margin:0}}>University Football Club</p>
+                    <p style={{color: "red", margin:0}}>University of Tasmania Football (Soccer) Club</p>
                 </div>
             </InfoWindow>
         </GoogleMap>

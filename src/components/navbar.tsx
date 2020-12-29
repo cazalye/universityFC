@@ -37,7 +37,7 @@ class Navbar extends Component <any, any> {
                         <a href="https://footballfedtas.com.au/" rel="noopener noreferrer" target="_blank">FFT</a> 
                     </Navigation>
                 </Header>
-                <Drawer title={<a onClick={() => this.hideToggle()} href="/" className="header-title">University Football Club</a> as any}>
+                <Drawer title={<a onClick={() => this.hideToggle()} href="/" className="header-title">University of Tasmania Football (Soccer) Club</a> as any}>
                     <Navigation className="drawer-nav" >
                         <a onClick={() => this.hideToggle()} href="/">Home</a> 
                         <a onClick={() => this.hideToggle()} href="/news/">News</a> 

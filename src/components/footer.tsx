@@ -14,7 +14,7 @@ class FooterDetail extends Component{
             <Map/>
             <FooterSection type="bottom">
                 <div className="drop-down-container">
-                <FooterDropDownSection title="About University Football Club">
+                <FooterDropDownSection title="About our Club">
                     <FooterLinkList>
                         <a href="/culture/">Our Culture</a>
                         <a href="/grounds/">Our Home Ground- the Hive</a>
@@ -55,8 +55,10 @@ class FooterDetail extends Component{
                 </FooterLinkList>
             </FooterSection>
             <div className="copyright">
-                    <p> &copy; 2020 University Football Club. Designed by <a href="https://portfolio.cazalye.com"  rel="noopener noreferrer" target="_blank"> cazalye</a></p>
+                <p> &copy; 2020 University of Tasmania Football (Soccer) Club INC</p>
             </div>
+            
+
         </Footer>
          )
     }
