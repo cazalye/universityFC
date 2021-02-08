@@ -39,7 +39,7 @@ const News = (props) => {
         <Head title={props.data.contentfulNews.title}/>
         <div className="page-container">
             <div className="page-header">
-                <img src="/logo.jpg" alt="University of Tasmania logo with lion" className="utas-logo" width="180px"/>
+                <img src="/logo_transparent.png" alt="University of Tasmania logo with lion" className="utas-logo" width="180px"/>
                 <h1 className="page-title">{props.data.contentfulNews.title}</h1>
                 <p>{props.data.contentfulNews.date}</p>
             </div>
