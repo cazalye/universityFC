@@ -20,7 +20,7 @@ class Navbar extends Component <any, any> {
             <Layout>
                 <div className="logo-nav">
                     <a href="/">
-                        <img className="logo" alt="Uni soccer club logo" src="/uni_soccer_logo.png" width="170px"/> 
+                        <img className="logo" alt="Uni soccer club logo" src="/logo.jpg" width="170px"/> 
                     </a>
                 </div>
                 <Header transparent title="">

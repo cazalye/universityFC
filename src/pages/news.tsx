@@ -24,7 +24,7 @@ const NewsPage = () => {
         <Head title="News"/>
         <div className="page-container">
             <div className="page-header">
-                <img src="/uni_logo_crop.png" alt="University of Tasmania logo with lion" className="utas-logo" width="180px"/>
+                <img src="/logo.jpg" alt="University of Tasmania logo with lion" className="utas-logo" width="180px"/>
                 <h1 className="page-title">News</h1>
             </div>
             <div className="page-banner">
